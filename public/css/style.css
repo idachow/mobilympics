@@ -44,7 +44,9 @@ h1 {
 }
 
 #charclass {
-    background-color: rgba(0,0,0,0.5);
-    background-clip: border-box;
-    
+    background: rgba(0,0,0,0.5);
+    margin-top: 1%;
+    margin-left: 2.5%;
+    width: 47%;
+    height: 35%;
 }
