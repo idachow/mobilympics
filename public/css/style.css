@@ -78,22 +78,27 @@ div.charactergrid img{
 .bord2 {
     border-top:none;
     border-bottom:none;
+    border-right:none;
 }
 
 .bord3 {
+    border-left:none;
     border-right:none;
     border-bottom:none;
 }
 
 .bord4 {
     border-bottom:none;
+    border-right:none;
 }
 
 .bord5 {
+    border-left:none;
     border-right:none;
     border-bottom:none;
 }
 
 .bord6 {
     border-bottom:none;
+    border-right:none;
 }
