@@ -34,6 +34,6 @@ function scoreLoad() {
     document.getElementById('score5').innerHTML = allscores[4];
     document.getElementById('score6').innerHTML = allscores[5];
     
-    var winningstring = "<div id='scorelead'>" + allscores[maxindex-1] + "<P>SCORE<P>LEAD </div>";
+    var winningstring = "<div id='scorelead'>" + allscores[maxindex-1] + "<P><I>SCORE<P>LEAD </i></div>";
     document.getElementById('score'+maxindex).innerHTML = winningstring;
 }
