@@ -40,4 +40,60 @@ a.linkfont:hover{
 h1 {
     font-weight: bold;
     color: #b4cfd7;
+    font-size:7vw;
+}
+
+h1:hover{
+    background-color: rgba(0,0,0,0.7);
+}
+
+#charclass {
+    background: rgba(0,0,0,0.5);
+}
+
+div.charactergrid img{
+    height:100%;
+}
+
+
+.characterbox {
+    width: calc(100% / 2);
+    height: calc(100% / 3);
+    float:left;
+    background: rgba(0,0,0,0.2);
+    border-style: solid;
+    border-color: rgba(255,255,255,.1);
+    border-width: 5px;
+}
+
+.characterbox:hover { background:rgba(0,0,0,.5) }
+
+.bord1 {
+    border-left:none;
+    border-top:none;
+    border-right:none;
+    border-bottom:none;
+}
+
+.bord2 {
+    border-top:none;
+    border-bottom:none;
+}
+
+.bord3 {
+    border-right:none;
+    border-bottom:none;
+}
+
+.bord4 {
+    border-bottom:none;
+}
+
+.bord5 {
+    border-right:none;
+    border-bottom:none;
+}
+
+.bord6 {
+    border-bottom:none;
 }
