@@ -5,8 +5,8 @@ body {
     background:#999;
 }
 
-.vcenter {
-    display: inline-block;
-    vertical-align: middle;
-    float: none;
+.element {
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
 }
