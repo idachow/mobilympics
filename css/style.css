@@ -1,8 +1,9 @@
 body {
+    background-image: url("img/tempbg.jpg");
+    background-color: transparent;
 	font-family: "Lato";
 	font-size: 1.25em;
-	color:#fff;
-    background:#999;
+	color:#000;
 }
 
 .element {
