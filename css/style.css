@@ -4,3 +4,9 @@ body {
 	color:#fff;
     background:#999;
 }
+
+.vcenter {
+    display: inline-block;
+    vertical-align: middle;
+    float: none;
+}
