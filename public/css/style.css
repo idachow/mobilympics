@@ -43,6 +43,13 @@ h1 {
     font-size:7vw;
 }
 
+h2 {
+    font-weight: bold;
+    color: #e5e5e5;
+    font-size:7vw;
+    padding-bottom: 5%;
+}
+
 h1:hover{
     background-color: rgba(0,0,0,0.7);
 }
