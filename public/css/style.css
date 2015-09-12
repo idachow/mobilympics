@@ -42,3 +42,14 @@ h1 {
     color: #b4cfd7;
     font-size:7vw;
 }
+
+div.charactergrid img{
+    height:100%;
+    width:100%;
+}
+
+.characterbox {
+    width: calc(100% / 2);
+    height: calc(100% / 3);
+    float:left;
+}
