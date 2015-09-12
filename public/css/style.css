@@ -19,8 +19,7 @@ body {
 }
 
 .element {
-
-  margin-top:50%;
+    margin-top:100%;
 }
 
 a.linkfont {
@@ -42,5 +41,4 @@ h1 {
     font-weight: bold;
     color: #b4cfd7;
     font-size:7vw;
-    padding-bottom:10%;
 }
