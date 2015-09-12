@@ -19,3 +19,12 @@ body {
   top: 50%;
   transform: translateY(-50%);
 }
+
+a.linkfont {
+    color: #fff;
+    font-size: 18px;
+}
+
+a.linkfont:hover{
+    color:#0000ff;
+}
