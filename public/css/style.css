@@ -7,7 +7,7 @@ html {
 }
 
 .transparent{
-background:rgba(0,0,0,0.8);
+background:rgba(0,0,0,0.5);
 }
 
 body {
@@ -25,10 +25,23 @@ body {
 }
 
 a.linkfont {
-    color: #fff;
-    font-size: 18px;
+    color: rgba(255,255,255,0.7);
+    font-size: 3vw;
+    background:rgba(0,0,0,0.5);
+    padding:3%;
+    padding-left: 30%;
+    padding-right:30%;
 }
 
 a.linkfont:hover{
-    color:#0000ff;
+    color:rgba(255,255,200,0.7);
+    text-decoration:none;
+    background:rgba(0,0,0,0.4);
+}
+
+h1 {
+    font-weight: bold;
+    color: #b4cfd7;
+    font-size:7vw;
+    padding-bottom:10%;
 }
