@@ -108,4 +108,5 @@ img {
     border-style: solid;
     border-color: transparent;
     border-radius: 5%;
+    box-shadow: 5px 5px 5px black;
 }
