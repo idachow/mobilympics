@@ -50,6 +50,7 @@ h1 {
     font-size:16vw;
     font-family:"harryp";
     padding-top: 16vw;
+    text-shadow: 5px 5px 5px black;
 }
 
 h2 {
@@ -90,45 +91,13 @@ div.charactergrid img{
     float:left;
     text-align: left;
     background: rgba(0,0,0,0.2);
-    border-style: solid;
-    border-color: rgba(255,255,255,.1);
-    border-width: 30px;
-    
+    padding: 1vw;
 }
 
 .characterbox:hover { background:rgba(0,0,0,.5) }
 
-.bord1 {
-    border-left:none;
-    border-top:none;
-    border-right:none;
-    border-bottom:none;
-}
-
-.bord2 {
-    border-top:none;
-    border-bottom:none;
-    border-right:none;
-}
-
-.bord3 {
-    border-left:none;
-    border-right:none;
-    border-bottom:none;
-}
-
-.bord4 {
-    border-bottom:none;
-    border-right:none;
-}
-
-.bord5 {
-    border-left:none;
-    border-right:none;
-    border-bottom:none;
-}
-
-.bord6 {
-    border-bottom:none;
-    border-right:none;
+img {
+    border-style: solid;
+    border-color: transparent;
+    border-radius: 5%;
 }
