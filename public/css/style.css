@@ -7,7 +7,16 @@ html {
 }
 
 .transparent{
-background:rgba(0,0,0,0.5);
+    position:fixed;
+    padding:0;
+    margin:0;
+
+    top:0;
+    left:0;
+
+    width: 100%;
+    height: 100%;
+    background:rgba(0,0,0,0.5);
 }
 
 @font-face {
@@ -90,8 +99,7 @@ div.charactergrid img{
     height: calc(100% / 3);
     float:left;
     text-align: left;
-    background: rgba(0,0,0,0.2);
-    padding: 1vw;
+    padding: 6vw;
 }
 
 .characterbox:hover { background:rgba(0,0,0,.5) }
