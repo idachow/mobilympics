@@ -110,3 +110,8 @@ img {
     border-radius: 5%;
     box-shadow: 5px 5px 5px black;
 }
+
+
+.nobox img {
+    box-shadow: none;
+}
